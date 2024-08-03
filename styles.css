@@ -1,0 +1,149 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+}
+
+.name {
+    color: white;
+}
+
+#home {
+    background: url('restaurant.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5em 0;
+}
+
+#home h2 {
+    font-size: 2.5em;
+}
+
+#home p {
+    font-size: 1.2em;
+}
+
+#menu .menu-item,
+#testimonials .testimonial {
+    background: #fff;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#menu .menu-item h3,
+#testimonials .testimonial p {
+    margin: 0.5em 0;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#gallery .gallery-item {
+    width: 30%;
+    margin: 1em 0;
+}
+
+#gallery .gallery-item img {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin: 0.5em 0 0.2em;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#contact-form button {
+    padding: 0.7em;
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#contact-form button:hover {
+    background-color: #e53935;
+}
+
+footer {
+    background-color: #d32f2f;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
